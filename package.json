@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/hpage24/Random-XKCD#readme",
   "dependencies": {
+    "axios": "^1.1.3",
+    "ejs": "^3.1.8",
     "express": "^4.18.2"
   }
 }

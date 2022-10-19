@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Random XKCD
+    </title>
+    <link rel="stylesheet" href="/static/stylesheets/styles.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" />
+</head>
+<body>
+    <div class="comic-container">
+        <h2>
+            <%= comicData.safe_title %>
+        </h2>
+        <br>
+        <img src="<%= comicData.img %>" alt="<%= comicData.alt %>" width="auto" height="35%"/>
+        <br>
+        <p>
+            <%= comicData.alt %>
+        </p>
+        <br>
+        <h4>
+            Date Published: <%= comicData.month %>/<%= comicData.day %>/<%= comicData.year %>
+        </h4>
+    </div>
+</body>
